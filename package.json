@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vinibortoletto.github.io/ilustrador-digital",
-  "name": "illustration-portfolio",
+  "homepage": "https://utkarshyadav009.github.io/digitalartist-portfolio",
+  "name": "digitalartist-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ViniBortoletto/illustration-portfolio.git"
+    "url": "git+https://github.com/utkarshyadav009/digitalartist-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ViniBortoletto/illustration-portfolio/issues"
+    "url": "https://github.com/utkarshyadav009/digitalartist-portfolio/issues"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",

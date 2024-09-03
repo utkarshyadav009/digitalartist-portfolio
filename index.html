@@ -8,12 +8,12 @@
     <link rel="icon" href="./public/build/favicon.ico" type="image/x-icon" />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Belgrano|Quicksand:300,400,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Times+New+Roman|Belgrano|Quicksand:300,400,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./public/build/tailwind.css" />
 
-    <title>Vinicius Bortoletto | Ilustrador</title>
+    <title>Bhavna Yadav | DigitalArtist</title>
   </head>
   <body class="font-base bg-gray-100">
     <header>
@@ -197,12 +197,12 @@
           >
             <div class="title-home w-64">
               <h1
-                class="font-title font-bold text-5xl md:text-6xl leading-none"
+                class="font-title font-bold font-style: italic text-right text-7xl leading-none text-purple-600"
               >
-                Vinicius Bortoletto
+                Bhavna Yadav
               </h1>
               <h2 class="text-xl md:text-2xl text-right w-full">
-                ilustrador digital
+                Digital Artist
               </h2>
             </div>
           </div>
@@ -435,7 +435,7 @@
           id="title-sobre-mim"
           class="title-box flex flex-col md:mr-0 md:mb-20 text-right md:relative md:z-10"
         >
-          <h1 class="title-text">sobre mim</h1>
+          <h1 class="title-text">About Me</h1>
           <div class="title-line w-56 self-end"></div>
           <div class="title-line w-40 self-end"></div>
         </div>
@@ -447,21 +447,20 @@
           style="text-indent: 1rem"
         >
           <p class="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            asperiores, ratione necessitatibus voluptatem veniam ipsum
-            laboriosam enim voluptatibus harum similique, maxime quis assumenda
-            ex porro minima molestiae autem aliquam esse. Voluptatum dolore
-            quaerat placeat perferendis. Earum dolorem voluptates, tenetur ea
-            saepe voluptate quibusdam suscipit accusamus, veritatis officiis at
-            explicabo hic?
+            Welcome to my digital canvas! As a new artist, I delve into cyberpunk 
+            themes, illustrations, and evocative portraits, exploring the fusion 
+            of technology and human emotion. My artwork, characterized by futuristic 
+            visions and character-driven narratives, challenges perceptions and invites 
+            thought.
           </p>
           <p class="mb-5">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            commodi consectetur quisquam tenetur sed magni temporibus earum quis
-            autem necessitatibus? Unde ullam ea modi doloribus!
+            Art for me is an exploration of unseen worlds, where the gritty 
+            vibrancy of cyberpunk and the depth of portraits blend to tell 
+            compelling stories. Each piece is a gateway to alternate realities, 
+            expanding boundaries through the neon-lit pulse of my imagination.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ut.
+            Embark on this journey with me, where each creation is a dialogue transcending digital boundaries to touch the soul.
           </p>
         </div>
       </section>
@@ -483,10 +482,10 @@
 
         <!-- Title -->
         <div
-          id="title-contato"
+          id="title-contact"
           class="title-box flex flex-col md:mb-20 text-center md:relative md:z-10"
         >
-          <h1 class="title-text title-text-contato">entre em contato</h1>
+          <h1 class="title-text title-text-contato">Contact Me</h1>
           <div class="title-line w-56 self-center mr-10"></div>
           <div class="title-line w-56 self-center ml-10"></div>
         </div>
@@ -494,15 +493,15 @@
         <!-- Form -->
         <form id="form" class="w-full max-w-lg m-auto">
           <div class="mb-5">
-            <label for="nome"></label>
+            <label for="name"></label>
             <input
-              id="nome"
+              id="name"
               type="text"
-              placeholder="seu nome"
+              placeholder="your name"
               class="input-field"
             />
 
-            <div class="form-erro"><p id="nome-erro"></p></div>
+            <div class="form-error"><p id="name-error"></p></div>
           </div>
 
           <div class="mb-5">
@@ -510,54 +509,54 @@
             <input
               id="email"
               type="text"
-              placeholder="seu@email.com"
+              placeholder="your@email.com"
               class="input-field"
             />
 
-            <div class="form-erro"><p id="email-erro"></p></div>
+            <div class="form-error"><p id="email-error"></p></div>
           </div>
 
           <div class="mb-5">
-            <label for="assunto"></label>
+            <label for="subject"></label>
             <input
-              id="assunto"
+              id="subject"
               type="text"
-              placeholder="assunto"
+              placeholder="subject"
               class="input-field"
             />
 
-            <div class="form-erro"><p id="assunto-erro"></p></div>
+            <div class="form-error"><p id="subject-error"></p></div>
           </div>
 
           <div class="mb-5">
-            <label for="mensagem"></label>
+            <label for="message"></label>
             <textarea
-              id="mensagem"
+              id="message"
               type="text"
-              placeholder="mensagem"
+              placeholder="message"
               rows="6"
               class="input-field resize-none"
             ></textarea>
 
-            <div class="form-erro"><p id="mensagem-erro"></p></div>
+            <div class="form-error"><p id="message-error"></p></div>
           </div>
 
           <button
-            id="btn-enviar"
+            id="btn-submit"
             type="submit"
             class="text-gray-100 bg-teal-600 hover:bg-teal-700 rounded px-10 py-3 font-bold float-right"
           >
-            enviar
+            submit
           </button>
         </form>
 
-        <!-- Mensagem Enviada -->
+        <!-- Message Sent  -->
         <div
-          id="mensagem-enviada"
+          id="message-sent"
           class="hidden fixed inset-0 z-50 m-auto text-gray-100 flex flex-col items-center justify-center rounded"
         >
-          <h1 class="text-3xl font-bold">Mensagem enviada!</h1>
-          <h2>Logo uma resposta será enviada para seu email.</h2>
+          <h1 class="text-3xl font-bold">Message Sent!</h1>
+          <h2>A response will soon be sent to your email.</h2>
         </div>
       </section>
     </main>
@@ -566,7 +565,7 @@
       class="h-20 bg-gray-900 flex justify-center lg:justify-end items-center"
     >
       <p class="text-purple-600" style="margin-right: 5vw">
-        Criado por <span class="font-bold">Vinicius Bortoletto</span>
+        Created by <span class="font-bold">Bhavna Yadav</span>
       </p>
     </footer>
 
